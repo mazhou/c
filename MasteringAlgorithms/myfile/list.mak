@@ -3,11 +3,11 @@ MAKNAM = list.mak
 LIBDRS =
 INCDRS = -I$(ALGOWC_TOPDIR)/include
 LIBFLS =
-SRCFLS = list.c\
+SRCFLS = ex-1.c\
          $(ALGOWC_TOPDIR)/source/list.c
-OBJFLS = list.o\
+OBJFLS = ex-1.o\
          $(ALGOWC_TOPDIR)/source/list.o
-EXE    = list.exe
+EXE    = ex-1.exe
 CC     = gcc
 LL     = gcc
 CFLAGS = -g 
